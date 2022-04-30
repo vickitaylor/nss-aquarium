@@ -1,0 +1,61 @@
+body { 
+    background-color: aquamarine;
+}
+
+.header { 
+    font-size: 5em;
+    text-align: center;
+    padding: .75em;
+    color: blue
+}
+
+.fish_page {
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+}
+
+.fish_quotes_header {
+    font-size: 2em;
+    text-align: center;
+    color: blue;
+    padding: .5rem;  
+}
+
+.quote {
+    align-items: center;
+    text-align: center;
+}
+
+.fish__image-image--card {
+    width: 25rem; 
+    height: auto;
+    padding: 1em;
+}
+
+.fish_quotes  {
+    display: flex; 
+    flex: 1; 
+    flex-direction: column;
+}
+
+.fishtank_tips { 
+    display: flex; 
+    flex: 1; 
+    flex-direction: column;
+}
+
+.container { 
+    flex: 3;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.list::before {
+    content: "🐟";
+}
+
+.list { 
+    list-style-type: none;
+}
